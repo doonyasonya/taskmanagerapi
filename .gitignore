@@ -1,12 +1,13 @@
-# Gauge - metadata dir
-.gauge
+.gitignore
+.venv/
 
-# Gauge - log files dir
-logs
+.vscode/
 
-# Gauge - reports dir
-reports
+tasks.db
 
-# Gauge - python compiled files
+__pycache__/
 *.pyc
-
+*.pyo
+*.pyd
+*.sqlite3
+*.pytest_cache
